@@ -16,7 +16,7 @@ import YoutubeIcon from '@/components/Icons/YoutubeIcon.vue'
     </div>
 
     <footer
-      class="flex h-48 w-full flex-col items-center justify-center bg-footer p-2">
+      class="flex w-full flex-col items-center justify-center bg-footer px-4 py-12 pb-28">
       <span class="text-2xl font-thin text-gray-300">Lottie Grogan</span>
       <span class="text-lg font-thin text-gray-300"
         >Delaney Grey Management</span
