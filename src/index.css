@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 #app {
-  @apply h-screen w-screen snap-y snap-mandatory overflow-x-hidden bg-blue-50;
+  @apply h-full w-full snap-y snap-mandatory overflow-y-auto overflow-x-hidden bg-blue-50;
 }
