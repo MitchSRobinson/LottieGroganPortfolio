@@ -4,7 +4,7 @@ import { VIDEO_YOUTUBE_CERISE } from '@/constants'
 
 <template>
   <section
-    class="container relative flex h-screen snap-center snap-always flex-col justify-end overflow-visible px-6 py-8">
+    class="container relative flex h-screen snap-start snap-always flex-col justify-end overflow-visible px-6 py-8">
     <div class="flex flex-col items-start justify-end space-y-20">
       <h2 class="text-4xl font-light lowercase text-gray-700">Writing</h2>
       <div>
