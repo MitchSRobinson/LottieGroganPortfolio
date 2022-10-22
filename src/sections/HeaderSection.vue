@@ -6,7 +6,7 @@ import LottieWoods from '@/assets/LottieWoods.jpeg'
 
 <template>
   <header
-    class="container relative flex h-screen snap-start snap-always flex-col items-center justify-between space-y-1 overflow-visible px-6 py-8 pb-16">
+    class="container relative flex h-screen snap-start snap-always flex-col items-center justify-between space-y-1 overflow-visible px-6 py-8">
     <div class="relative top-0 aspect-video h-1/3 w-[90%] max-w-xs">
       <ColouredBlob
         class="absolute w-[200%] -translate-y-[15%] -translate-x-1/4 -rotate-45" />

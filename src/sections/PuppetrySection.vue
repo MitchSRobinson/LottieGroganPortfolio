@@ -4,7 +4,7 @@ import LottiePuppetry from '@/assets/LottiePuppetry.jpg'
 
 <template>
   <section
-    class="container relative flex h-screen snap-start snap-always flex-col items-end justify-start space-y-8 overflow-visible px-6 py-8 pb-16 pt-8 text-right">
+    class="container relative flex h-screen snap-start snap-always flex-col items-end justify-start space-y-8 overflow-visible px-6 py-8 pt-8 text-right">
     <h2 class="text-4xl font-light lowercase text-gray-700">Puppetry</h2>
 
     <div>
