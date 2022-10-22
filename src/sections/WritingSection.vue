@@ -20,11 +20,12 @@ import { VIDEO_YOUTUBE_CERISE } from '@/constants'
       </div>
     </div>
 
-    <div class="absolute top-[15%] left-[5%] aspect-video w-[90%] shadow-2xl">
+    <div
+      class="absolute top-[15%] left-[5%] aspect-video w-[90%] max-w-xl shadow-2xl">
       <iframe
         :src="VIDEO_YOUTUBE_CERISE"
         title="The Secret of Cerise by Tipsy Cow Productions"
-        class="aspect-video w-full max-w-xl"
+        class="aspect-video w-full"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
