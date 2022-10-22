@@ -7,7 +7,7 @@ import YoutubeIcon from '@/components/Icons/YoutubeIcon.vue'
 
 <template>
   <section
-    class="container flex h-screen w-screen snap-start snap-always flex-col justify-between overflow-hidden">
+    class="container flex h-screen max-h-screen w-screen snap-start snap-always flex-col justify-between overflow-hidden">
     <div
       class="flex flex-col items-start justify-start space-y-8 px-6 pt-20 pb-4">
       <h2 class="text-4xl font-light lowercase text-gray-700">Hire me</h2>
