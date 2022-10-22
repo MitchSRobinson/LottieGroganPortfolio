@@ -1,4 +1,4 @@
-# template-vite-vue-ts-tailwind-v3
+# Lottie Grogan Portfolio
 
 - **template of:** vite + vue + typescript
 - **tailwindcss:** v3.x
@@ -22,8 +22,3 @@ yarn dev
 yarn build
 # or `npm run build`
 ```
-
----
-<p align="center">
-<img src="./powered-by-vitawind-bright.png">
-</p>
