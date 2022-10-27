@@ -17,13 +17,13 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: yarn
+          cache: pnpm
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Build site
-        run: yarn build
+        run: pnpm build
 
       - name: Deploy portfolio to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
