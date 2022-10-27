@@ -6,28 +6,29 @@ import YoutubeIcon from '@/components/Icons/YoutubeIcon.vue'
 </script>
 
 <template>
-  <section
-    class="container flex h-screen max-h-screen w-screen snap-start snap-always flex-col justify-between overflow-hidden">
+  <section class="flex h-screen w-screen flex-col">
     <div
-      class="flex flex-col items-start justify-start space-y-8 px-6 pt-20 pb-4">
-      <h2 class="text-4xl font-light lowercase text-gray-700">Hire me</h2>
-      <p class="text-xl font-light text-gray-700">
+      class="flex grow flex-col space-y-6 px-6 py-8 lg:max-w-xl lg:px-16 lg:py-16">
+      <h2 class="text-4xl">Hire me</h2>
+      <p class="text-xl">
         To get in touch send pigeon mail to 123 Brick Ln, Dot Com
       </p>
     </div>
 
     <footer
-      class="flex w-full flex-col items-center justify-center bg-footer px-4 py-16 pb-32">
-      <span class="text-2xl font-thin text-gray-300">Lottie Grogan</span>
-      <span class="text-lg font-thin text-gray-300"
-        >Delaney Grey Management</span
-      >
+      class="flex w-full flex-col items-center justify-center bg-footer px-6 py-16 lg:px-16 lg:py-16">
+      <div class="flex flex-col items-center">
+        <span class="text-4xl font-thin text-gray-300">Lottie Grogan</span>
+        <span class="text-xl font-thin text-gray-300"
+          >Delaney Grey Management</span
+        >
+      </div>
 
       <div class="flex w-fit space-x-4 pt-4">
-        <FacebookIcon height="32" width="32" />
-        <InstagramIcon height="32" width="32" />
-        <TiktokIcon height="32" width="32" />
-        <YoutubeIcon height="32" width="32" />
+        <FacebookIcon height="38" width="38" />
+        <InstagramIcon height="38" width="38" />
+        <TiktokIcon height="38" width="38" />
+        <YoutubeIcon height="38" width="38" />
       </div>
     </footer>
   </section>

@@ -4,6 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .section {
+    @apply relative flex h-screen min-h-0 w-screen min-w-0 flex-col overflow-y-hidden overflow-x-clip px-6 pt-8 pb-16 lg:px-16 lg:pt-16 lg:pb-16;
+  }
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply overflow-y-scroll bg-blue-50 font-light text-gray-700 antialiased;
+}
+
 #app {
-  @apply h-screen w-screen snap-y snap-mandatory overflow-x-hidden bg-blue-50;
+  @apply h-screen w-screen snap-y snap-proximity snap-always overflow-scroll;
 }

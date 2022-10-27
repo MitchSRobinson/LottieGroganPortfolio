@@ -7,9 +7,9 @@ import ContactSection from '@/sections/ContactSection.vue'
 </script>
 
 <template>
-  <HeaderSection />
-  <ActingSection />
-  <WritingSection />
-  <PuppetrySection />
-  <ContactSection />
+  <HeaderSection class="snap-start" />
+  <ActingSection class="snap-start" />
+  <WritingSection class="snap-start" />
+  <PuppetrySection class="snap-start" />
+  <ContactSection class="snap-start" />
 </template>

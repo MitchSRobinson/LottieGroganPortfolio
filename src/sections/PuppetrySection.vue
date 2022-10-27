@@ -3,18 +3,17 @@ import LottiePuppetry from '@/assets/LottiePuppetry.jpg'
 </script>
 
 <template>
-  <section
-    class="container relative flex h-screen max-h-screen snap-start snap-always flex-col items-end justify-start space-y-8 overflow-visible px-6 py-8 pt-8 text-right">
-    <h2 class="text-4xl font-light lowercase text-gray-700">Puppetry</h2>
+  <section class="section">
+    <h2 class="text-4xl">Puppetry</h2>
 
     <div>
-      <p class="text-xl font-light text-gray-700">
+      <p class="text-xl">
         Suspendisse sit amet elit congue orci aliquam elementum. Ut sagittis
         ipsum ac nulla sagittis, quis venenatis arcu varius. Morbi quis nulla
         vel ante tincidunt pretium.
       </p>
 
-      <p class="text-xl font-light lowercase text-gray-700">
+      <p class="text-xl">
         Morbi quis nulla vel ante tincidunt pretium. Vivamus vel ligula aliquam,
         tincidunt ante vitae, porta diamerp.
       </p>
