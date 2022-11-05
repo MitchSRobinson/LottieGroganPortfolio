@@ -3,12 +3,8 @@ import KneesUps from '@/assets/KneesUp.jpeg'
 </script>
 
 <template>
-  <section class="section">
-    <img
-      :src="KneesUps"
-      class="absolute -bottom-16 right-0 w-2/3 max-w-xs rotate-[20deg]" />
-
-    <div class="max-w-full space-y-6 lg:max-w-xl">
+  <section>
+    <div class="-mb-16 max-w-full space-y-6 lg:max-w-xl">
       <h2 class="pb-12 text-4xl">Acting</h2>
 
       <p class="text-xl">
@@ -21,5 +17,8 @@ import KneesUps from '@/assets/KneesUp.jpeg'
         in leo porttitor accumsan.
       </p>
     </div>
+    <img
+      :src="KneesUps"
+      class="absolute -bottom-16 right-0 w-2/3 max-w-xs rotate-[20deg]" />
   </section>
 </template>

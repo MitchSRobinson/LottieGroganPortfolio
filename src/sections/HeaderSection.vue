@@ -3,7 +3,7 @@ import HeaderImage from '@/assets/HeaderImage.png'
 </script>
 
 <template>
-  <header class="section items-center justify-end">
+  <header class="items-center justify-end">
     <img
       :src="HeaderImage"
       class="absolute top-[calc(35%_-_350px)] left-[calc(58%_-_350px)] w-[700px] max-w-none" />

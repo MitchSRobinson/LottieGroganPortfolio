@@ -3,7 +3,7 @@ import { VIDEO_YOUTUBE_CERISE } from '@/constants'
 </script>
 
 <template>
-  <section class="section">
+  <section>
     <div class="flex flex-col items-center justify-end space-y-20">
       <iframe
         :src="VIDEO_YOUTUBE_CERISE"

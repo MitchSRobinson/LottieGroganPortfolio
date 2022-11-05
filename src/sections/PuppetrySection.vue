@@ -3,7 +3,7 @@ import LottiePuppetry from '@/assets/LottiePuppetry.jpg'
 </script>
 
 <template>
-  <section class="section">
+  <section>
     <h2 class="text-4xl">Puppetry</h2>
 
     <div>
